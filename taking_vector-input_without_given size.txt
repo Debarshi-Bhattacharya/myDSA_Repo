@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    vector<int> vec;
+    string buffer;
+    int data;
+    getline(std::cin, buffer);
+    istringstream iss(buffer);
+    while (iss >> data)
+          vec.push_back(data);
+	for(auto x:vec)
+	    cout<<x<<" ";
+	return 0;
+}
